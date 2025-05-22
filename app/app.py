@@ -13,7 +13,7 @@ def index():
             password='postgres'
         )
         conn.close()
-        return "¡Conexión a base de datos exitosa!"
+        return "¡Conexión a base de datos exitosa!. La primera parte del proyecto está completada."
     except Exception as e:
         return f"Error al conectar: {e}"
 
